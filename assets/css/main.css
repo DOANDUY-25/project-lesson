@@ -1,0 +1,53 @@
+/* ================Header============== */
+.header{
+    background-color: var(--color-bg-one);
+    padding: 50px 0 10px;
+    position: sticky;
+    top:-30px;
+}
+
+.header .inner-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.header .inner-wrap .nav{
+    margin-left: auto;
+}
+
+.header .nav ul{
+    display: flex;
+}
+
+.header .nav li a:hover{
+    color: var(--color-text);
+    text-shadow: 1px 0 0 currentColor ;
+}
+
+.header .nav li a{
+    position: relative;
+}
+
+.header .nav li.active a::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    color:var(--color-text);
+    position: absolute;
+    bottom: -6px;
+    left: 21px;
+    background-color: var(--color-text);
+}
+
+.header .nav ul li a{
+    font-size: 1.6rem;
+    color: var(--color-brown);
+    line-height: 28px;
+    padding: 0 21px;
+}
+
+.header .btn{
+    margin-left: 21px;
+}

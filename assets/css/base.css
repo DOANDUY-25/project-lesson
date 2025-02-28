@@ -1,0 +1,49 @@
+:root{
+    --color-text:#171100;
+    --color-brown:#5F5B53;
+    --color-oranger:#FFB900;
+    --color-white:#ffffff;
+    --color-bg-one:#FFFCF4;
+    --color-bg-two:#2E2100;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* container */
+.container{
+    width:100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ============btn=========== */
+.btn{
+    display: inline-block;
+    padding: 0 16px;
+    min-width:118px ;
+    line-height:50px ;
+    text-align: center;
+    border-radius: 24.5px;
+}
+
+.btn-black{
+    background-color: var(--color-text);
+    color: var(--color-white);
+}
